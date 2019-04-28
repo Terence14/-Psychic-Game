@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <div class="jumbotron">
+                <h1 class="display-4">Psychic-GAME</h1>
+                <p class="lead"></p>
+                <hr class="my-4">
+                
+                <button type="button" class="btn btn-primary btn-lg btn-block">Start</button>
+                
+
+
+
+              </div>
+
+
+    
+</head>
+
+
+
+
+<body>
+        
+<title>Bootstrap Layouts</title>
+<link rel="stylesheet" href="Practicestyle.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+
+
+
+
+
+    <meta charset="UTF-8">
+    <title>ALPHA Psychic-GAME</title>
+
+    <link rel="stylesheet"  href="game.css">
+    
+<div class="container">
+
+    <div class="row">
+
+      
+
+<script type="text/javascript">
+var wins=0;
+
+var losses=0;
+
+var keep 
+
+var cup;
+
+//var letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "_"];
+
+function genCharArray(charA, charZ) {
+   var a = [], i = charA.charCodeAt(0), j = charZ.charCodeAt(0);
+   for (; i <= j; ++i) {
+       a.push(String.fromCharCode(i));
+   }
+   return a;
+}
+
+
+var alph= genCharArray('a', 'z'); // ["a", ..., "z"]
+cup= alph[Math.floor(Math.random() * alph.length)]
+console.log(cup)
+
+
+
+function myFunction(){
+  
+console.log(event.key) 
+if (event.key === cup) {
+
+  console.log("YOUWIN!!!!")
+
+wins ++
+ console.log(wins)
+
+ }
+
+ else {
+losses ++
+   console.log(losses,"YOUR A LOSER")
+
+ }
+
+
+
+  
+
+
+
+
+
+
+
+
+
+};
+
+
+
+
+</script>
+
+</body>
+</html>
